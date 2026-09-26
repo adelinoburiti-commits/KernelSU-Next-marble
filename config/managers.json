@@ -7,15 +7,15 @@
     "susfs": false
   },
   "kernelsu-next": {
-    "display": "KernelSU-Next",
+  "display": "KernelSU-Next",
+  "repo": "KernelSU-Next/KernelSU-Next",
+  "ref": "1a879d6",
+  "setup_path": "kernel/setup.sh",
+  "susfs": {
     "repo": "KernelSU-Next/KernelSU-Next",
-    "ref": "dev",
-    "setup_path": "kernel/setup.sh",
-    "susfs": {
-      "repo": "pershoot/KernelSU-Next",
-      "ref": "dev-susfs"
-    }
-  },
+    "ref": "1a879d6"
+  }
+},
   "sukisu-ultra": {
     "display": "SukiSU Ultra",
     "repo": "SukiSU-Ultra/SukiSU-Ultra",
