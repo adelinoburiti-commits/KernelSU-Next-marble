@@ -9,11 +9,11 @@
   "kernelsu-next": {
   "display": "KernelSU-Next",
   "repo": "KernelSU-Next/KernelSU-Next",
-  "ref": "1a879d6",
+  "ref": "dev",
   "setup_path": "kernel/setup.sh",
   "susfs": {
-    "repo": "KernelSU-Next/KernelSU-Next",
-    "ref": "1a879d6"
+    "repo": "pershoot/KernelSU-Next",
+    "ref": "dev-susfs"
   }
 },
   "sukisu-ultra": {
