@@ -6,12 +6,15 @@
     "setup_path": "kernel/setup.sh",
     "susfs": false
   },
-  "kernelsu-next-susfs": {
-  "display": "KernelSU-Next + SUSFS",
-  "repo": "pershoot/KernelSU-Next",
-  "setup_path": "kernel/setup.sh",
-  "ref": "dev-susfs"
-},
+  "kernelsu-next": {
+    "display": "KernelSU-Next",
+    "repo": "KernelSU-Next/KernelSU-Next",
+    "setup_path": "kernel/setup.sh",
+    "susfs": {
+      "repo": "pershoot/KernelSU-Next",
+      "ref": "dev-susfs"
+    }
+  },
   "sukisu-ultra": {
     "display": "SukiSU Ultra",
     "repo": "SukiSU-Ultra/SukiSU-Ultra",
